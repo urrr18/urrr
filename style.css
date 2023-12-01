@@ -1,0 +1,35 @@
+header {
+    background-color: blueviolet;    
+    position: sticky;
+    top: 0px;
+    height: 100px;
+}
+aside {
+    background-color: aqua;
+    width: 25%;
+    position: sticky;
+    top: 100px;
+    float: left;
+    margin-left: -100%;
+}
+nav {
+    background-color: chartreuse; 
+    width: 25%; 
+    position: sticky;
+    top: 100px;
+    float: right;
+    margin-left: -100%;
+}
+footer {
+    background-color: coral;
+    clear: left;
+}
+* {
+    margin: 0;
+}
+p {
+    text-align: justify;
+}
+main { width: 50%;
+    margin: 0 25%;
+    float: left; }
